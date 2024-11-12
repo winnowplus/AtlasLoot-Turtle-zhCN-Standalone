@@ -1,15 +1,18 @@
-﻿## Interface: 11200
-## Title: |CFF33AAFFAtlasLoot |R副本掉落 |cffff1450[1.29]|R
-## Title-zhCN: |CFF33AAFFAtlasLoot |R副本掉落 |cffff1450[1.29]|R
-## Notes: |CFF33AAFFAtlasLoot |R副本掉落 |cffff1450|R中文端由|cff33ffccWind&sunelegy|R汉化修复，汉显端由|cff33ffcc名字不好起|R修改。|N命令：/atlasloot
-## Notes-zhCN: |CFF33AAFFAtlasLoot |R副本掉落 |cffff1450|R中文端由|cff33ffccWind&Sunelegy|R汉化修复，汉显端由|cff33ffcc名字不好起|R修改。|N命令：/atlasloot
-## Author: Daviesh, Pompa (Turtle WoW World Bosses), Xerron (Turtle WoW World Bosses), Gurky (Turtle WoW 1.16/1.16.1 Dungeons), |cffbe5effLexie|r, Wind, Sunelegy, 名字不好起
+## Interface: 11200
+## Title: AtlasLoot TW Edition
+## Notes: Shows the possible loot from the bosses
+## Author: Daviesh, Pompa (Turtle WoW World Bosses), Xerron (Turtle WoW World Bosses), Gurky (Turtle WoW 1.16/1.16.1 Dungeons), |cff5BCEFAL|cffF5A9B8e|cffFFFFFFx|cffF5A9B8i|cff5BCEFAe|r
 ## Version: 1.1.4
 ## SavedVariables: AtlasLoot_updateavailable
 ## SavedVariablesPerCharacter: AtlasLootCharDB
 ## OptionalDeps: Alphamap, AtlasLoader, LootLink, ItemSync, HewdropLib, Ace2, EquipCompare, EQCompare
 
-Libs\Hewdrop\Dewdrop-2.0.lua
+Libs\AceLibrary\AceLibrary.lua
+Libs\AceOO\AceOO-2.0.lua
+Libs\AceEvent\AceEvent-2.0.lua
+Libs\AceDB\AceDB-2.0.lua
+Libs\AceLocale\AceLocale-2.2.lua
+Libs\AceAddon\AceAddon-2.0.lua
 Libs\Hewdrop\Hewdrop-2.0.lua
 
 Locale\Locale.xml
