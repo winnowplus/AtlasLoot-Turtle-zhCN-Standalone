@@ -498,7 +498,7 @@
 			<Layer level="ARTWORK">
 				<Texture name="$parentHeader" file="Interface\DialogFrame\UI-DialogBox-Header">
 					<Size>
-						<AbsDimension x="600" y="64"/>
+						<AbsDimension x="570" y="64"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOP">
@@ -517,7 +517,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="$parent_Notice" inherits="GameFontNormal">
+				<FontString name="$parent_Notice" inherits="GameFontNormalSmall">
 					<Anchors>
 						<Anchor point="BOTTOM">
 							<Offset>
@@ -584,7 +584,7 @@
 		<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
 		<Layers>
 			<Layer level="ARTWORK">
-				<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+				<FontString name="$parent_Text" inherits="GameFontNormalSmall" justifyH="LEFT">
 					<Size>
 						<AbsDimension x="320" y="15"/>
 					</Size>
@@ -1274,7 +1274,7 @@
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
-				<FontString name="AtlasLoot_BossName" inherits="GameFontHighlightLarge" justifyH="CENTER">
+				<FontString name="AtlasLoot_BossName" inherits="GameFontHighlight" justifyH="CENTER">
 					<Size>
 						<AbsDimension x="512" y="30"/>
 					</Size>
