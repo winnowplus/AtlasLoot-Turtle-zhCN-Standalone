@@ -1020,7 +1020,7 @@ AL:RegisterTranslations("zhCN", function() return {
     ["Sapphiron"] = "萨菲隆",
     ["Kel'Thuzad"] = "克尔苏加德",
     ["Naxxramas"] = "纳克萨玛斯",
-    ["Upper Karazhan Halls"] = "卡拉赞之塔",
+    ["Tower of Karazhan"] = "卡拉赞之塔",
     ["Onyxia"] = "奥妮克希亚",
     ["Onyxia's Lair"] = "奥妮克希亚的巢穴",
     ["Ragefire Chasm"] = "|cffffffff[13-18]|cffffd200 怒焰裂谷",
@@ -1634,7 +1634,17 @@ AL:RegisterTranslations("zhCN", function() return {
     ["|cffffffff[61]|cffffd200 Shadeflayer Goliath |cffffffff(Hyjal)"] = "|cffffffff[61]|CFF00FF00 暗灭者歌利亚 |cffffffff(海加尔山)",
     ["|cffffffff[??]|cffffd200 Widow of the Woods |cffffffff(Gilneas)"] = "|cffffffff[??]|CFF00FF00 树林寡妇 |cffffffff(吉尔尼斯)",
     ["|cffffffff[??]|cffffd200 M-0L1Y |cffffffff(???)"] = "|cffffffff[??]|CFF00FF00 M-0L1Y |cffffffff(???)",
-
+	--Karazhan40增补汉化，Sunelegy
+	["King (Chess fight)"] = "国王议会",
+	["Sanv Tas'dal"] = "桑夫·塔斯达尔",
+	["Kruul"] = "库鲁尔",
+    ["Ley-Watcher Incantagos"] = "魔网观察者因塔苟斯",
+	["Anomalus"] = "阿诺玛鲁斯",
+	["Echo of Medivh"] = "麦迪文的回响",
+	["Keeper Gnarlmoon"] = "守护者纳尔穆恩",
+	["Rupturan"] = "破碎者鲁普图兰",
+	["Mephistroth"] = "孟菲斯托斯",
+	["Unknown boss Upper Kara"]  = "其他",
     --专业技能增补汉化，wind
     ["Rare Spawns"] = "稀有精英",
     ["Back2"] = "返回",

@@ -5092,4 +5092,97 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "CRAFTINGMENU";
 		Back_Title = AL["Crafting"];
 	};
+	-- Upper Karazhan Halls
+	-- Guessed order:keeper gnarlmoon -> incantagos -> anomalus -> echo of medivh (optional) -> king's council -> sanv tas'dal  -> rupturan -> kruul -> mephistroph
+
+	["Kara40Gnarlmoon"] = {
+		Title = AL["Keeper Gnarlmoon"];
+		Next_Page = "Kara40Incantagos";
+		Next_Title = AL["Ley-Watcher Incantagos"];
+		Prev_Page = "Kara40Trash";
+		Prev_Title = AL["Trash Mobs"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40Incantagos"] = {
+		Title = AL["Ley-Watcher Incantagos"];
+		Next_Page = "Kara40Anomalus";
+		Next_Title = AL["Anomalus"];
+		Prev_Page = "Kara40Gnarlmoon";
+		Prev_Title = AL["Keeper Gnarlmoon"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40Anomalus"] = {
+		Title = AL["Anomalus"];
+		Next_Page = "Kara40Echo";
+		Next_Title = AL["Echo of Medivh"];
+		Prev_Page = "Kara40Incantagos";
+		Prev_Title = AL["Ley-Watcher Incantagos"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40Echo"] = {
+		Title = AL["Echo of Medivh"];
+		Next_Page = "Kara40King";
+		Next_Title = AL["King (Chess fight)"];
+		Prev_Page = "Kara40Anomalus";
+		Prev_Title = AL["Anomalus"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40King"] = {
+		Title = AL["King (Chess fight)"];
+		Next_Page = "Kara40SanvTasdal";
+		Next_Title = AL["Sanv Tas'dal"];
+		Prev_Page = "Kara40Echo";
+		Prev_Title = AL["Echo of Medivh"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40SanvTasdal"] = {
+		Title = AL["Sanv Tas'dal"];
+		Next_Page = "Kara40Kruul";
+		Next_Title = AL["Kruul"];
+		Prev_Page = "Kara40King";
+		Prev_Title = AL["King (Chess fight)"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40Kruul"] = {
+		Title = AL["Kruul"];
+		Next_Page = "Kara40Rupturan";
+		Next_Title = AL["Rupturan"];
+		Prev_Page = "Kara40SanvTasdal";
+		Prev_Title = AL["Sanv Tas'dal"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
+	["Kara40Rupturan"] = {
+		Title = AL["Rupturan"];
+		Prev_Page = "Kara40Kruul";
+		Prev_Title = AL["Kruul"];
+		Next_Page = "Kara40Mephistroth";
+		Next_Title = AL["Mephistroth"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	},
+	["Kara40Mephistroth"] = {
+		Title = AL["Mephistroth"];
+		Prev_Page = "Kara40Rupturan";
+		Prev_Title = AL["Rupturan"];
+		Next_Page = "Kara40Trash";
+		Next_Title = AL["Trash Mobs"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	},
+	["Kara40Trash"] = {
+		Title = AL["Trash Mobs"];
+		Prev_Page = "Kara40Mephistroth";
+		Prev_Title = AL["Mephistroth"];
+		Next_Page = "Kara40Gnarlmoon";
+		Next_Title = AL["Keeper Gnarlmoon"];
+		Back_Page = "DUNGEONSMENU2";
+		Back_Title = AL["Dungeons & Raids"];
+	};
 };

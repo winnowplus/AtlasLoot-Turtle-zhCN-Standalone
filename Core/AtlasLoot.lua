@@ -78,7 +78,7 @@ local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "1";
-local VERSION_MINOR = "1";
+local VERSION_MINOR = "3";
 local VERSION_BOSSES = "4";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Wind&Sunelegy汉化版 v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.12.0";
@@ -2327,7 +2327,7 @@ AtlasLoot_HewdropDown = {
 				{ "|cffff0000[团队]|cffffd200 "..AL["Naxxramas"], "Naxxramas", "Submenu" },
 			},
 			[36] = {
-				{ "|cffff0000[团队]|cffffd200 "..AL["Upper Karazhan Halls"], "Kara40", "Submenu" },
+				{ "|cffff0000[团队]|cffffd200 "..AL["Tower of Karazhan"], "TowerofKarazhan", "Submenu" },
 			},
 		},
 	},
@@ -3052,8 +3052,17 @@ AtlasLoot_HewdropDown_SubTables = {
 		{ AL["AQ Enchants"], "AQEnchants" },
 		{ AL["AQ Opening Quest Chain"], "AQOpening" },
 	},
-	["Kara40"] = {
-		{ "No Kara40 Yet", "NoKara40" },
+	["TowerofKarazhan"] = {
+		{ AL["Keeper Gnarlmoon"], "Kara40Gnarlmoon" },
+		{ AL["Ley-Watcher Incantagos"], "Kara40Incantagos" },
+		{ AL["Anomalus"], "Kara40Anomalus" },
+		{ AL["King (Chess fight)"], "Kara40King" },
+		{ AL["Echo of Medivh"], "Kara40Echo" },
+		{ AL["Sanv Tas'dal"], "Kara40SanvTasdal" },
+		{ AL["Rupturan"], "Kara40Rupturan" },
+		{ AL["Kruul"], "Kara40Kruul" },
+		{ AL["Mephistroth"], "Kara40Mephistroth" },
+		{ AL["Trash Mobs"], "Kara40Trash" },
 	},
 	["WailingCaverns"] = {
 		{ AL["Lord Cobrahn"], "WCLordCobrahn" },

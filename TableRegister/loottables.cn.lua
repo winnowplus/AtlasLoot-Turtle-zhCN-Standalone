@@ -411,7 +411,17 @@ AtlasLoot_TableNames = {
 	["AQ40Trash2"] = { AL["Trash Mobs"] .. " (AQ40)", "AtlasLootItems" },
 	["AQOpening"] = { "AQ Opening Quest Line", "AtlasLootItems" },
 	--Kara40
-	["NoKara40"] = { "No Kara 40", "AtlasLootItems" },
+	--Tower of Karazhan
+	["Kara40Gnarlmoon"] = { AL["Keeper Gnarlmoon"], "AtlasLootItems" },
+	["Kara40Incantagos"] = { AL["Ley-Watcher Incantagos"], "AtlasLootItems" },
+	["Kara40Anomalus"] = { AL["Anomalus"], "AtlasLootItems" },
+	["Kara40King"] = { AL["King (Chess fight)"], "AtlasLootItems" },
+	["Kara40Echo"] = { AL["Echo of Medivh"], "AtlasLootItems" },
+	["Kara40SanvTasdal"] = { AL["Sanv Tas'dal"], "AtlasLootItems" },
+	["Kara40Rupturan"] = { AL["Rupturan"], "AtlasLootItems" },
+	["Kara40Kruul"] = { AL["Kruul"], "AtlasLootItems" },
+	["Kara40Mephistroth"] = { AL["Mephistroth"], "AtlasLootItems" },
+	["Kara40Trash"] = { AL["Trash Mobs"], "AtlasLootItems" },
 	--Uldaman
 	["UldMagreganDeepshadow"] = { AL["Magregan Deepshadow"], "AtlasLootItems" },
 	["UldTabletofRyuneh"] = { "Tablet of Ryun'eh", "AtlasLootItems" },
